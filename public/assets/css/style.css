@@ -1,0 +1,303 @@
+
+body{
+  font-family: 'Roboto Mono';
+}
+
+#search-input,
+ #search-submit{
+  color: #90ee90;
+  background: #353434;
+  font-family: 'Roboto Mono';
+  border: 2px solid #90ee90;
+}
+
+#language-select{
+  -webkit-appearance: menulist;
+  color: #90ee90;
+  background: #353434;
+  font-family: 'Roboto Mono';
+}
+#search-submit {
+  color: rgb(210, 115, 119);
+}
+
+#sizing{
+  width: 95%;
+
+}
+body {
+  padding-top: 110px;
+}
+#red {
+  color: rgb(210, 115, 119);
+}
+
+#blue {
+  color: rgb(114, 174, 234);
+}
+
+#green {
+  color: #90ee90;
+}
+
+#quote {
+  color: rgb(201, 156, 110);
+}
+
+body {
+  background-color: #353434;
+  color: #eee;
+}
+
+.h1-style {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 15px;
+}
+.right {
+  text-align: right;
+  position: absolute;
+  right: 5%;
+}
+
+.left {
+  text-align: left;
+}
+
+.code {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+
+
+/*Header Styling*/
+.logo {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+}
+
+#tagline {
+  font-family: 'Roboto Mono';
+  padding-top: 10px;
+}
+
+.borderbtm{
+  border-bottom: 2px solid #eee;
+}
+
+.bg-faded {
+  background-color: #353434;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.jumbotron {
+  padding: 10px;
+  background-color: #b0b0b0;
+}
+/*Search Styling*/
+
+.smallimg {
+    padding: 20px;
+    width: 210px;
+    height: 210px;
+}
+
+.left-div {
+  min-height: 700px;
+  overflow-y: scroll;
+  background-color: #b0b0b0;
+}
+
+.right-div {
+  overflow-y: scroll;
+  min-height: 700px;
+  background-color: #b0b0b0;
+}
+
+.centerimg {
+  /*text-align: right;
+  position: absolute;
+  right: 35%;*/
+  width: 210px;
+  height: 210px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.custom-select {
+  background: #c0c0c0;
+  position: relative;
+  left: 17%;
+  margin-top: 5px;
+}
+
+/*Search Results Div Styling*/
+#searchresult {
+  background-color: #abacac;
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+
+  border-color: #90ee90;
+}
+
+.verticalhr {
+  border-right: 2px solid #ffffff;
+  height: 300px;
+  margin-top: 40px;
+}
+#footer{
+  color: rgb(114, 174, 234);
+}
+.smallicon {
+  width:50px;
+  height: 50px;
+}
+
+.thetop {
+  vertical-align: top;
+}
+
+.hidden {
+	display: none;
+}
+
+#stack-div {
+  overflow: auto;
+  border-right: 3px solid #90ee90;
+
+}
+
+#documentation-div {
+  overflow: auto;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #90ee90;
+  background-color: #353434;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+.input-group {
+  width: 50%;
+  margin: 10px;
+  height: 40%;
+}
+
+p {
+  color: #000
+}
+
+label {
+  display: block;
+  margin-bottom: 0;
+}
+
+/*Footer Styling*/
+.social {
+  width: 40px;
+  height: 40px;
+}
+
+.padding {
+  padding-top: 30px;
+}
+.doc-item {
+  background-color: #ffffff;
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  color: #000;
+}
+.doc-list {
+  min-height: 10px;
+}
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+/*Handlebars UI Styling*/
+.card-header-search{
+  background-color: #90ee90 ;
+  color: #000;
+  text-align: center;
+}
+
+.card-block{
+  text-align: left;
+  color: #90ee90;
+  background: #353434;
+}
+.card-block p {
+  color: #90ee90;
+}
+
+.card-block a {
+  color: rgb(201, 156, 110);
+  font-size: 110%; 
+}
+
+.card-header-search a {
+  color: #000;
+}
+
+.card-block pre {
+  color: #90ee90;
+  background: #353434;
+}
+
+#doc-query-result {
+  color: #90ee90;
+  background: #353434;
+  tex-align: left;
+}
+#doc-query-result h3 {
+  color: rgb(210, 115, 119);
+  font-size: 200%;
+}
+#doc-query-result p {
+  color: #90ee90;
+  text-align: justify;
+  margin: 0 5%;
+}
+
+#doc-query-result p a {
+  color: rgb(201, 156, 110);
+  font-size: 110%;
+  text-align: center;
+}
+.language-js{
+  color: rgb(114, 174, 234);
+
+}
+.card {
+  margin: 7px;
+  border-radius: 7px;
+}
+
+a {
+  font-size: 16px;
+  color: #000;
+}
+
+code {
+  background-color: rgb(210, 115, 119);
+  color: #fff;
+
+}
+.left-div p {
+  color: rgb(114, 174, 234);
+  font-size: 110%;
+}

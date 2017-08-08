@@ -1,0 +1,42 @@
+<div id="accordion-jquery" class="doc-list" role="tablist">
+  <label id="jquery-list-head" data-toggle="collapse" data-target="#jquery-list">
+    <h2> JQuery Methods </h2>
+  </label>
+
+  <div id="doc-query-result"></div>
+
+  <div id="jquery-list" class="collapse show">
+    {{#each jquery}}
+      <div class="card">
+
+        <div class="card-header-search" role="tab" id="jquery-{{id}}-header">
+          <h5 class="mb-0">
+            <a data-toggle="collapse" data-parent="#accordion-jquery" href="#accordion-{{id}}">
+              {{name}}
+            </a>
+          </h5>
+        </div>
+
+        <div id="accordion-{{id}}" class="collapse" role="tabpanel">
+          <div class="card-block doc-item">
+            <h2> {{name}} </h2>
+            <p> {{{description}}} </p>
+            <h3>
+              <label class="btn btn-primary detail-link" data-id="{{id}}"> Details </label>
+              <label class="btn btn-primary example-link" data-id="{{id}}"> Examples </label>
+            </h3>
+            <div id="detail-{{id}}" class="collapse hidden">
+            <!-- Detail inserted here by front-end click handler-->
+            </div>
+
+            <div id="examples-{{id}}" class="collapse hidden">
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+  </div>
+  {{/each}}
+</div>
